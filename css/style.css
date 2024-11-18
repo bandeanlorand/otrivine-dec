@@ -1,0 +1,797 @@
+@charset "utf-8";
+/* CSS Document */
+
+*img.{
+	display:block;	
+}
+
+.wrapper {
+	background-image:url(../images/site_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	width:100%;
+	height:100%;
+	min-width:996px !important;
+	display:block;
+}
+body {
+	margin:0;
+	padding:0;
+	min-width:994px;
+}
+html {
+	margin:0;
+	padding:0;
+	min-width:994px;
+}
+@font-face {
+	font-family: 'DaxWeb';
+	src: url('../fonts/DaxWeb.eot');
+}
+/* then for WOFF-capable browsers */
+@font-face {
+	font-family: 'DaxWeb';
+	src: url('../fonts/DaxWeb.woff') format('woff');
+}
+@font-face {
+	font-family: DaxWeb-Medi;
+	src: url('../fonts/DaxWeb-Medi.eot');
+}
+/* then for WOFF-capable browsers */
+@font-face {
+	font-family: DaxWeb-Medi;
+	src: url('../fonts/DaxWeb-Medi.woff') format('woff');
+}
+@font-face {
+	font-family: DaxWeb-Bold;
+	src: url('../fonts/DaxWeb-Bold.eot');
+}
+/* then for WOFF-capable browsers */
+@font-face {
+	font-family: DaxWeb-Bold;
+	src: url('../fonts/DaxWeb-Bold.woff') format('woff');
+}
+img {
+	border:0px;
+}
+.mainContainer {
+	width:994px !important;
+	min-width:994px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	min-height:1500px;
+	position:relative;
+	background-image:url(../images/site_bg.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+.pageHeader {
+	width:994px;
+	height:790px;
+	display:block;
+}
+.mainContainer a.otrivineLogo {
+	float:left;
+	margin:27px 0px 0px 21px;
+	display:inline-block;
+}
+.mainContainer a.otrivineLogoPage {
+	float:left;
+	margin:27px 0px 0px 0px;
+	display:inline-block;
+}
+.otrivineTimerBoard {
+	position:absolute;
+	top:450px;
+	left:547px;
+	display:inline-block;
+	width:235px;
+	height:114px;
+}
+.otrivineTimerBoard img {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	z-index:1;
+}
+.otrivineTimerBoard .textBox {
+	margin:70px 0px 0px 25px;
+	position:relative;
+	width:255px;
+	height:180px;
+	z-index:2;
+}
+.topTextContainer {
+	position:absolute;
+	top:98px;
+	right:124px;
+}
+.topTextContainer span {
+	position:absolute;
+	font-size:10px;
+	font-family: DaxWeb-Medi;
+	color:#004e94;
+	bottom:0px;
+	left:28px;
+	display:block;
+	text-align: center;
+	height:12px;
+	line-height:12px;
+}
+.topTextContainer span sup {
+	font-size:6px;
+	top:0px;
+}
+.middleBarContainer {
+	width:996px;
+	height:120px;
+	display:block;
+	top:630px;
+	position:absolute;
+	float:left;
+	left:0px;
+}
+.middleBarContainer a.howTheProductWorks {
+	background-image:url(../images/top_video_btn.png);
+	background-repeat:no-repeat;
+	width:272px;
+	height:63px;
+	display:none;
+	background-position: -10px 0px;
+	float:left;
+	font-family: DaxWeb-Medi, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	color:#fff;
+	padding:60px 110px 0px 80px;
+	margin:0px 0px 0px 2px;
+	text-align:left;
+	line-height:27px;
+}
+.middleBarContainer a.howTheProductWorks:hover {
+	color:#0c4ca3;
+	background-position: -494px 0px;
+}
+.middleBarContainer a.watchTheAd {
+	background-image:url(../images/top_video_btn.png);
+	background-repeat:no-repeat;
+	width:245px;
+	height:65px;
+	display:block;
+	background-position: 0px -123px;
+	float:left;
+	margin:14px 0px 0px 0px;
+	font-family: DaxWeb-Medi, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	color:#7b7b7b;
+	text-align:left;
+	padding:47px 125px 0px 105px;
+	line-height:26px;
+}
+.middleBarContainer a.watchTheAd:hover {
+	color:#0c4ca3;
+	background-position: -484px -123px;
+}
+/* tabcontent starts here */
+
+/* css preload for tab bg */
+.preloadTabBgLeft {
+	background-image:url(../images/tab_1.png);
+	display:none;
+}
+.preloadTabBgRight {
+	background-image:url(../images/tab_2.png);
+	display:none;
+}
+/* css preload for tab bg */
+
+.pageMiddleContent {
+	width: 994px;
+	margin: 0 auto;
+}
+.pageMiddleContent ul.tabs {
+	font-size: 0;
+	margin:0;
+	padding:0px;
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+.pageMiddleContent ul.tabs li {
+	display: inline;
+	margin: 0;
+	margin-right:3px; /*distance between tabs*/
+}
+.pageMiddleContent ul.tabs li a {
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	color: #000;
+	outline:none;
+	width:497px;
+	height:280px;
+	display:block;
+	float:left;
+	text-align:center;
+}
+.pageMiddleContent ul.tabs li a img {
+	margin-top:6px;
+}
+.pageMiddleContent ul.tabs li a span.text {
+	font-family: DaxWeb-Medi, sans-serif;
+	font-size:20px;
+	z-index:5;
+	position:absolute;
+	font-weight:normal;
+	bottom:45px;
+	left:0px;
+	width:497px;
+	display:block;
+	color:#0c4ca3;
+}
+.pageMiddleContent ul.tabs li a:visited {
+	color: #000;
+}
+.pageMiddleContent ul.tabs li a:hover {
+}
+.pageMiddleContent ul.tabs li.selected a {
+	/*selected tab style */
+    position: relative;
+	top: 0px;
+	font-weight:bold;
+	z-index:2;
+	text-align:center;
+}
+.pageMiddleContent ul.tabs li.selected a.firstTab {
+	background-image:url(../images/tab_1.png);
+	width:497px;
+	background-position:top left;
+}
+.pageMiddleContent ul.tabs li.selected a.secondTab {
+	background-image:url(../images/tab_2.png);
+	width:497px;
+	background-position:top right;
+}
+.pageMiddleContent ul.tabs li.selected a:hover {
+	/*selected tab style */
+    text-decoration: none;
+}
+.pageMiddleContent div.tabcontent {
+	display: block;
+	clear:both;
+	background-image:url(../images/tab_content_bg.png);
+	width:993px;
+	background-position:-994px 0px;
+	position:relative;
+}
+div.tabcontentTop {
+	display: block;
+	background-image:url(../images/tab_content_bg.png);
+	width:993px;
+	height:25px;
+	background-position:0px 0px;
+	clear:both;
+	top:-12px;
+	z-index:1;
+	left:0px;
+	position:relative;
+}
+div.tabcontentBottom {
+	display: block;
+	clear:both;
+	background-image:url(../images/tab_content_bg.png);
+	width:993px;
+	height:37px;
+	background-position:0px 36px;
+	top:-12px;
+	z-index:1;
+}
+.tabcontentMain {
+	width:960px;
+	min-height:312px;
+	z-index:5;
+	position:relative;
+	top:0px;
+	margin-left:28px;
+	float:left;
+}
+/* store box style starts here */
+
+.storeBox {
+	width:329px;
+	height:100px;
+	display:block;
+	float:left;
+	border-top:1px solid #e9e8e8;
+	border-right:1px solid #e9e8e8;
+	position:relative;
+}
+.storeBox a.buyBtn {
+	background-image:url(../images/buy_btn.png);
+	background-position:top;
+	width:82px;
+	height:40px;
+	display:block;
+	padding:0px 40px 0px 0px;
+	font-size:16px;
+	line-height:41px;
+	color:#fff;
+	font-family: DaxWeb-Medi, sans-serif;
+	text-decoration:none;
+	text-align:right;
+	position:absolute;
+	top:29px;
+	right:15px;
+}
+.storeBox a.buyBtn:hover {
+	background-position:bottom;
+}
+.footer {
+	width:990px;
+	height:100px;
+	display:block;
+}
+.footer .footerMenu {
+	margin:25px 0px 0px 8px;
+	height:20px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+}
+.footer .footerMenu a {
+	float:left;
+	color:#0c4da2;
+	line-height:20px;
+	margin:0px 0px 0px 0px;
+	text-decoration:none;
+}
+.footer .footerMenu a:hover {
+}
+.footer .footerMenu span {
+	height:20px;
+	color:#0c4da2;
+	float:left;
+	line-height:20px;
+	display:block;
+	padding:0px 10px 0px 10px;
+}
+.footer img.productText {
+	float:right;
+	margin:28px 0px 0px 0px;
+}
+/* menu starts here */
+
+ul.menu {
+	padding: 7px 0;
+	font-size: 0;
+	margin:0;
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the tabs as desired*/
+	width:290px;
+	float:left;
+}
+ul.menu li {
+	display: inline-block;
+	margin: 0;
+	clear:both;
+	float:left;
+	width:290px;
+}
+ul.menu li a {
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	border-bottom: 1px solid #CCC;
+	display:block;
+	padding:0px 0px 0px 15px;
+	outline:none;
+	width:275px;
+	height:50px;
+	line-height:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999999;
+	font-weight:bold;
+}
+ul.menu li a:visited {
+}
+ul.menu li a:hover {
+	background-color:#f8f8f8;
+	color:#646464;
+}
+ul.menu li.selected a {
+	/*selected tab style */
+    position: relative;
+	top: 0px;
+	background-color:#f8f8f8;
+	color:#646464;
+}
+ul.menu li.selected a:hover {
+	/*selected tab style */
+    text-decoration: none;
+}
+div.menucontents {
+	padding:0px 0px 0px 30px;
+	width:560px;
+	float:left;
+	line-height:16px;
+}
+.menuBlock {
+	width: 925px;
+	margin: 0 auto;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 22px;
+	float:left;
+	font-size:0px;
+}
+.scondTabLeftContent h2 {
+	width:275px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	font-size:20px;
+	line-height:26px;
+	color:#063d9e;
+	font-weight: normal;
+}
+.scondTabLeftContent h2.MacSafariFontFix {
+	height:0px;
+}
+.scondTabLeftContent h2 span {
+	font-family: 'DaxWeb', sans-serif;
+	display:block !important;
+}
+.scondTabLeftContent {
+	float:left;
+	width:330px;
+}
+.scondTabLeftContent span.border {
+	width:1px;
+	font-size:1px;
+	margin:0px 0px 0px 35px;
+	background-color:#e4e2e2;
+	width:1px;
+	height:311px;
+	display:block;
+	float:right;
+}
+ul.menu li a.otherProductsMenu {
+	color:#0b4ea2;
+}
+ul.menu li a.otherProductsMenu span {
+	float:left;
+}
+ul.menu li a.otherProductsMenu span.arrow {
+	background-image:url(../images/other_product_arrow.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	width:6px;
+	height:50px;
+	display:block;
+	float:left;
+	margin: 0px 0px 0px 7px;
+}
+.menucontent {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999999;
+}
+.menucontent p {
+	line-height:18px;
+	margin:0px 0px 18px 0px;
+}
+.menucontent h2 {
+	width:570px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 20px 0px;
+	font-size:20px;
+	line-height:24px;
+	color:#063d9e;
+	font-weight:normal;
+}
+.menucontent h2 span {
+	font-family: 'DaxWeb', sans-serif;
+	display:block !important;
+}
+#menuview2 p i {
+	font-size:12px;
+}
+.menucontent b {
+	line-height:18px;
+}
+.menucontent ul {
+	padding:0px 0px 15px 15px;
+	margin:0px 0px 0px 0px;
+}
+.menucontent ul li {
+	padding:0px 0px 0px 15px;
+}
+.menucontent ol {
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 15px 20px;
+}
+.menucontent ol li {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.thenthRow {
+	margin-left:6px !important;
+}
+.thenthRow span {
+	margin-left:9px !important;
+}
+.menucontent ol li:before {
+	float:left;
+	background-color:#99FF00;
+	margin-right:20px;
+}
+.menucontent ol li span {
+	margin-left:15px;
+	display:block;
+}
+.wraptocenter {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 170px;
+	height: 100px;
+}
+.wraptocenter * {
+	vertical-align: middle;
+}
+.last {
+	border-right:none;
+	width:309px;
+}
+.first {
+	width:298px;
+	text-align:left;
+}
+.firstRow {
+	border-top:none;
+}
+.middleLast {
+	border-bottom: 1px solid #E9E8E8;
+}
+.wraptocenter {
+	display: block;
+}
+.wraptocenter span {
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
+/* overlay starts here */
+
+
+.seeHowOverlay_overlay {
+	display:block;
+	width:720px;
+	background-color:#fff;
+	overflow:hidden;
+	height:480px;
+	font-size:12px;
+	position:relative;
+	border:15px solid #fff;
+}
+.seeHowOverlay_overlay a.close {
+	display:block;
+	position:absolute;
+	right:4px;
+	top:1px;
+	cursor:pointer;
+	font-family: 'DaxWeb';
+	text-transform:normal;
+	font-weight:normal;
+	color: #999;
+	font-size:12px;
+	text-decoration:none;
+	height:15px;
+	line-height:15px;
+}
+.seeHowOverlay_overlay a.close:hover {
+	color:#000;
+}
+.seeHowOverlay_overlay_vid {
+	display:block;
+	width:960px;
+	background-color:#fff;
+	overflow:hidden;
+	height:540px;
+	font-size:12px;
+	position:relative;
+	border:15px solid #fff;
+}
+.seeHowOverlay_overlay_vid a.close {
+	display:block;
+	position:absolute;
+	right:4px;
+	top:1px;
+	cursor:pointer;
+	font-family: 'DaxWeb';
+	text-transform:normal;
+	font-weight:normal;
+	color: #999;
+	font-size:12px;
+	text-decoration:none;
+	height:15px;
+	line-height:15px;
+}
+.seeHowOverlay_overlay_vid a.close:hover {
+	color:#000;
+}
+#exposeMask {
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	z-index:10 !important;
+}
+ div#exposeMask ~ img {
+display:none !important;
+}
+h3.placeholderText {
+	font-family: 'DaxWeb', sans-serif;
+	font-size:30px;
+	line-height:26px;
+	color:#248f8d;
+	width:720px;
+	text-align:center;
+	display:block;
+	margin-top:200px;
+}
+.wrapperPage {
+	background-image:none;
+}
+.wrapperPage .mainContainer {
+	background-image:none;
+	min-height:1000px;
+}
+.wrapperPage .mainContainer h1 {
+	font-family: 'DaxWeb', sans-serif;
+	color:#0C4CA3;
+	font-size:30px;
+	margin: 0px 0px 30px 0px;
+	font-weight:normal;
+}
+.wrapperPage .mainContainer h2 {
+	font-family: 'DaxWeb', sans-serif;
+	color:#0C4CA3;
+	font-size:22px;
+	margin: 45px 0px 5px 0px;
+	font-weight:normal;
+}
+.wrapperPage .mainContainer .pageHeader {
+	height:180px;
+}
+.wrapperPage .mainContainer p {
+	color:#484848;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:19px;
+	margin:10px 0px 10px 0px;
+}
+.wrapperPage .mainContainer ul {
+	color:#484848;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:19px;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.wrapperPage .mainContainer p a {
+	color:#113372;
+	font-weight:bold;
+	text-decoration:none;
+}
+.wrapperPage .mainContainer a.top {
+	font-family: 'DaxWeb', sans-serif;
+	color:#0C4CA3;
+	font-size:16px;
+	margin:40px 0px 30px 0px;
+	display:block;
+	text-decoration:none;
+}
+.wrapperPage .mainContainer table {
+	color:#484848;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:19px;
+	margin:20px 0px 30px 0px;
+	vertical-align:text-top;
+	border-color:#333333;
+}
+.wrapperPage .mainContainer table td, .wrapperPage .mainContainer table th {
+	padding: 3px 3px 3px 3px;
+	border-color:#333333;
+}
+/* cookie top bar styles starts here */
+
+#wrapper {
+}
+/** TOP BAR **/
+	#top-bar {
+	width:100%;
+	height:56px;
+	background-color:#CCC;
+	color:#333;
+	margin-top:-60px;
+	font-family: 'DaxWeb', sans-serif;
+	font-size:13px;
+	background-image:url(../images/cookie-bar-bg.png);
+	background-repeat:repeat-x;
+	position:relative;
+	overflow:hidden;
+}
+#top-bar-inner .shadow {
+	background-image:url(../images/cookie-bar-main_shadow.png);
+	width:760px;
+	height:7px;
+	background-position:top;
+	bottom:7px;
+	display:block;
+	position:absolute;
+	z-index:10;
+}
+#top-bar strong {
+	display:block;
+	color: red;
+}
+#top-bar a.closeRight {
+	background-image:url(../images/cookie-close.png);
+	width:11px;
+	height:10px;
+	float:right;
+	top:10px;
+	right:10px;
+	position:absolute;
+}
+#top-bar-inner {
+	width:730px;
+	height:56px;
+	margin:0 auto;
+	position:relative;
+	padding-top:14px;
+	display:block;
+	line-height:16px;
+	background-image:url(../images/cookie-bar--main-bg.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+#top-bar-inner p {
+	float:left;
+	width:300px;
+}
+#top-bar-inner div {
+	float:left;
+}
+#top-bar-inner a {
+	color: #063d9e;
+	text-decoration: underline;
+}
+/* overlay styles */
+
+.flashPlayerBigContainer, .videoPlayerBigContainer {
+	background-image:url(../images/overlay_bg.png);
+	background-repeat:repeat;
+	position: fixed !important;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: -1;
+	zoom: 1;
+	overflow: none;
+	display:block;
+}
+.footer p, .wrapperPage .footer p {
+	float:right !important;
+	font-size:11px !important;
+	font-family: DaxWeb-Bold !important;
+	color:#999999 !important;
+	height: 20px !important;
+	margin: 25px 0px 0px 0px !important;
+	line-height:20px !important;
+}
